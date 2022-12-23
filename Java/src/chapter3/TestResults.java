@@ -1,5 +1,6 @@
 package chapter3;
 
+import java.util.Map;
 import java.util.Scanner;
 
 /*
@@ -31,6 +32,16 @@ public class TestResults {
 			grade = 'A';
 		}
 		System.out.println("You grade is: " + grade);	
+	}
+
+	public static Map<String, Integer> getOriginalGrades() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public static Map<String, Integer> getMakeUpGrades() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 	
 
